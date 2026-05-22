@@ -4,6 +4,27 @@
 
 ---
 
+<h2>📸 Project Screenshots</h2>
+
+<div style="display:flex; gap:20px; flex-wrap:wrap;">
+
+  <div>
+    <img src="assets/screenshots/dashboard.png" width="300">
+    <p>Dashboard View</p>
+  </div>
+
+  <div>
+    <img src="assets/screenshots/add-employee.png" width="300">
+    <p>Add Employee Page</p>
+  </div>
+
+  <div>
+    <img src="assets/screenshots/list-view.png" width="300">
+    <p>Employee List</p>
+  </div>
+
+</div>
+
 ## 📁 Project Structure
 
 ```
