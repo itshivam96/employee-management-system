@@ -9,7 +9,7 @@
 <div style="display:flex; gap:20px; flex-wrap:wrap;">
 
   <div>
-    <img src="Screenshots/img-1.png">
+    <img src="Screenshots/img-2.png">
     <p>Dashboard View</p>
   </div>
 
