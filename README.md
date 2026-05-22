@@ -9,12 +9,12 @@
 <div style="display:flex; gap:20px; flex-wrap:wrap;">
 
   <div>
-    <img src="screenshots/img-1.png" width="300">
+    <img src="Screenshots/img-1.png" width="300">
     <p>Dashboard View</p>
   </div>
 
   <div>
-    <img src="screenshots/img-1.png" width="300">
+    <img src="Screenshots/img-1.png" width="300">
     <p>Add Employee Page</p>
   </div>
 
