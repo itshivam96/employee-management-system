@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Employee Management System | Shivam Kumar</title>
+<title>Employee Management System</title>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet"/>
-   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link rel="apple-touch-icon" href="favicon.svg" />
 <style>
   :root {
@@ -270,12 +270,12 @@
 
   <div class="content">
     <!-- Config Banner -->
-    <div class="config-banner" id="config-banner">
+    <div class="config-banner" id="config-banner" style="display:none">
       ⚙️ <strong>Backend URL:</strong>&nbsp; Make sure Spring Boot is running at&nbsp;
-      <span id="backend-url-display">http://localhost:8080</span>.
+      <span id="backend-url-display">https://emporbit.onrender.com</span>.
       &nbsp;Change it here:
       <input id="api-url-input" style="background:rgba(0,0,0,0.3);border:1px solid rgba(245,158,11,0.4);border-radius:4px;padding:3px 8px;color:#fbbf24;font-size:12px;width:220px;margin-left:4px;"
-        value="http://localhost:8080" onchange="updateApiUrl(this.value)"/>
+        value="https://emporbit.onrender.com" onchange="updateApiUrl(this.value)"/>
     </div>
 
     <!-- STATS -->
@@ -389,7 +389,7 @@
 <div class="toast-container" id="toasts"></div>
 
 <script>
-let API_BASE = 'http://localhost:8080/api/employees';
+let API_BASE = 'https://emporbit.onrender.com/api/employees';
 let allEmployees = [];
 let editingId = null;
 let currentFilter = 'all';
