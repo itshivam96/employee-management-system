@@ -741,6 +741,10 @@ td{padding:13px 20px;font-size:13px;vertical-align:middle;}
 .dept-bar{height:100%;border-radius:10px;transition:width 0.8s cubic-bezier(0.4,0,0.2,1);}
 .dept-count{font-size:12px;font-weight:700;color:var(--text2);width:24px;text-align:right;font-family:'Syne',sans-serif;}
 
+.mobile-search-bar {
+  display: none;
+}
+
 /* ─── RESPONSIVE ─── */
 @media (max-width: 1100px){
   .stats-grid{grid-template-columns:repeat(2,1fr);}
@@ -788,7 +792,7 @@ td{padding:13px 20px;font-size:13px;vertical-align:middle;}
   .modal-body{padding:14px 18px;}
   .modal-footer{padding:10px 18px 28px;}
   .toast-container{left:12px;right:12px;top:auto;bottom:76px;max-width:none;}
-  #app-footer{left:0;padding:8px 12px;}
+  #app-footer{display: none;}
   .shortcuts{display:none;}
   .confirm-box{margin:0 12px;}
 }
