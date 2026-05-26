@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
-<title>EmpOrbit | Employee Management | Shivam Kumar</title>
+<title>EmpOrbit — Shivam Kumar</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
-<link rel="icon" type="image/svg+xml" href="favicon.svg" />
-<link rel="apple-touch-icon" href="favicon.svg" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="apple-touch-icon" href="favicon.svg" />
 <style>
 :root {
   --bg: #06080f;
@@ -330,7 +330,7 @@ body::before{
 }
 
 /* ─── CONTENT ─── */
-.content{padding:24px 28px 64px;}
+.content{padding:24px 28px 40px;}
 
 /* ─── STAT CARDS ─── */
 .stats-grid{
@@ -741,16 +741,11 @@ td{padding:13px 20px;font-size:13px;vertical-align:middle;}
 .dept-bar{height:100%;border-radius:10px;transition:width 0.8s cubic-bezier(0.4,0,0.2,1);}
 .dept-count{font-size:12px;font-weight:700;color:var(--text2);width:24px;text-align:right;font-family:'Syne',sans-serif;}
 
-.mobile-search-bar {
-  display: none;
-}
-
 /* ─── RESPONSIVE ─── */
 @media (max-width: 1100px){
   .stats-grid{grid-template-columns:repeat(2,1fr);}
 }
 @media (max-width: 900px){
-  #app-footer{left:0;}
   .sidebar{transform:translateX(-100%);}
   .main{margin-left:0;}
   .menu-toggle{display:flex;}
@@ -760,7 +755,7 @@ td{padding:13px 20px;font-size:13px;vertical-align:middle;}
 @media (max-width: 640px){
   :root{--topbar-h:58px;}
   .main{margin-left:0;}
-  .content{padding:14px 12px 80px;}
+  .content{padding:14px 12px 40px;}
   .topbar{padding:0 12px;gap:8px;}
   .page-title{font-size:15px;}
   .page-subtitle{display:none;}
@@ -791,8 +786,7 @@ td{padding:13px 20px;font-size:13px;vertical-align:middle;}
   .modal-head{padding:16px 18px 14px;}
   .modal-body{padding:14px 18px;}
   .modal-footer{padding:10px 18px 28px;}
-  .toast-container{left:12px;right:12px;top:auto;bottom:76px;max-width:none;}
-  #app-footer{display: none;}
+  .toast-container{left:12px;right:12px;top:auto;bottom:20px;max-width:none;}
   .shortcuts{display:none;}
   .confirm-box{margin:0 12px;}
 }
@@ -1095,15 +1089,7 @@ td{padding:13px 20px;font-size:13px;vertical-align:middle;}
   </div>
 </div>
 
-<!-- FOOTER -->
-<footer style="position:fixed;bottom:0;left:var(--sidebar-w);right:0;padding:8px 28px;background:rgba(13,17,23,0.9);backdrop-filter:blur(12px);border-top:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;z-index:50;pointer-events:none;" id="app-footer">
-  <span style="font-size:11px;color:var(--text3);">EmpOrbit v2.0 &nbsp;·&nbsp; Built with ❤️ by <a href="https://shivamk-eta.vercel.app/" target="_blank" style="color:var(--accent);text-decoration:none;pointer-events:all;font-weight:600;">Shivam Kumar</a></span>
-  <span style="font-size:10px;color:var(--text3);display:flex;gap:12px;pointer-events:all;">
-    <span title="New Employee" style="cursor:default;">⌘N New</span>
-    <span title="Search" style="cursor:default;">⌘K Search</span>
-    <span title="Close" style="cursor:default;">ESC Close</span>
-  </span>
-</footer>
+
 
 <!-- TOASTS -->
 <div class="toast-container" id="toasts"></div>
